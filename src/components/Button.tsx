@@ -8,7 +8,10 @@ export const Button: FunctionComponent<ButtonProps> = ({
   children,
   onClick,
 }) => (
-  <button className="bg-blue-400 m-2 p-2 hover:bg-blue-300" onClick={onClick}>
+  <button
+    className="bg-blue-500 m-2 p-2 hover:bg-blue-400 text-lg"
+    onClick={onClick}
+  >
     {children}
   </button>
 );
